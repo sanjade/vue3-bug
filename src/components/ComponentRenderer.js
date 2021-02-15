@@ -16,7 +16,7 @@ export default defineComponent({
                     console.log(t)
                 }
                 onMounted(() => {
-                    console.log("onMounted()")
+                    console.log(context.html, "onMounted()")
                 })
                 return {
                     log
