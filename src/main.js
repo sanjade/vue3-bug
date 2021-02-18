@@ -1,7 +1,7 @@
 import { createApp } from "vue"
 import App from "./App.vue"
-import ComponentRenderer from "./components/ComponentRenderer"
 import store from "./store"
+import ComponentRenderer from "./components/component-renderer"
 
 const app = createApp(App)
 app.use(store)
