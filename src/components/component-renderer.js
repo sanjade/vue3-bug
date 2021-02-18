@@ -7,8 +7,6 @@ export default defineComponent({
         const html = "<p>{{ attrs.items || 'loading...' }}</p>"
         const toRender = defineComponent({
             name: "ComponentRenderer",
-            inheritAttrs: false,
-            emits: [],
             props: {
                 attrs: {
                     type: Object
